@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+
+.container{
+    position: fixed;
+    width: 450px;
+    height: 100vh;
+    background-color: rgba(165, 150, 110, 0.555);
+    left: -450px;
+    transition: 1s;
+ 
+    display: block;
+
+    
+  
+ 
+
+}
+.container li {
+    list-style-type: none;
+     
+  
+  
+   
+}
+.container a{
+    text-decoration: none;
+    display: block;   
+    padding: 30px 10px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: black;
+    font-family: fantasy;
+   
+   
+  
+   
+}
+.container a:hover{
+    background-color: rgba(226, 187, 114, 0.808);
+
+}
+
+
+.logo
+{
+   
+    
+  float: right;
+  margin: 15px 15px;
+  font-size: 2.5rem;
+  font-family:Birthstone;
+  color: brown;
+  text-transform: capitalize;
+  font-weight: bold;
+  
+
+}
+#trait
+{
+    width: 30px;
+    height: 2px;
+ padding: 4px;
+margin: 2px 2px;
+    background-color: rgba(177, 130, 87, 0.336);
+    display: block;
+    border-radius: 4px;
+  
+   
+   
+   
+}
+.btn{
+    position: fixed;
+
+}
+.active{
+    left: 0;
+}
+.croix{
+    width: 40px;
+   padding-top: 30px;
+   padding-left: 400px;
+ 
+ 
+
+   
+   
+}
+#tr1,#tr2{
+    width: 30px;
+    height: 5px;
+    background-color: brown;
+    position: absolute;
+   
+  
+    
+    
+
+}
+#tr1{
+   
+    transform: rotate(-45deg);
+
+}
+
+#tr2{
+   
+  
+    transform: rotate(45deg);
+
+}
+.items{
+    padding-top: 20px;
+}
+header{
+    background: url(studies.jpg) center/cover fixed no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+#title
+{
+    position: absolute;
+    
+   top: 20%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   font-size: 4vw;
+   color: rgb(2, 109, 5);
+   text-transform: capitalize;
+   font-family: cursive;
+   
+    
+}
+@media only screen and (max-width: 500px) {
+    .container {
+      width: 300px;
+    }
+    .croix{
+        padding-left: 250px;
+    }
+    #title
+    {
+        font-size: 1.8rem;
+    }
+  }
